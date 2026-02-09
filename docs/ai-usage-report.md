@@ -3,6 +3,8 @@
 
 **Recommended AI Tools**
 **GitHub Copilot → Code completion & generation**
+*"I used Copilot to complete to me some lines which are the tables part and form"*
+
 **ChatGPT / Claude → Problem-solving & explanations**
 **Cursor → AI-powered code editor**
 **Replit → AI-assisted online IDE**
