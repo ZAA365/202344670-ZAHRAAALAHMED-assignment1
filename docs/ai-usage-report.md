@@ -2,12 +2,12 @@
 
 ### Tools Used & Use Cases
 
-**GitHub Copilot → Code completion & generation**
+**GitHub Copilot -> Code completion & generation**
 * I used Copilot to complete some lines, especially the tables part and contact form
 * I also used Copilot to give me suggestions about content like sentences about myself
 * I used auto-complete for some CSS properties and then checked if they worked as I wanted
 
-**DeepSeek → Problem-solving & explanations**
+**DeepSeek -> Problem-solving & explanations**
 * I used DeepSeek to fix my dark mode button that wasn't working
 * It helped me understand why some text disappeared in dark mode
 * It explained JavaScript concepts like event listeners and class manipulation
