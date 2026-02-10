@@ -17,4 +17,4 @@ This is my first personal portfolio website created for my web design course. Th
 4. **Test dark mode** - Click the "🌙 Switch Mode" button to toggle between light and dark themes
 
 **Short summary of AI use (detailed in ai-usage-report.md)**
-I used AI tools to help me understand web development concepts, debug issues, and improve my code. Detailed usage is documented in [ai-usage-report.md](ai-usage-report.md).
+I used AI tools to help me understand web development concepts, debug issues, and improve my code and to help me document my read files. Detailed usage is documented in [ai-usage-report.md](ai-usage-report.md).

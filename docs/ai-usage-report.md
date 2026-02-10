@@ -22,6 +22,7 @@
 * Gave me alternative solutions to problems
 * Helped me learn proper HTML structure and CSS organization
 * Saved me time on repetitive coding tasks
+* Helped me in writing my read documents
 
 **Difficulties I faced:**
 * Sometimes AI suggestions were too advanced for my beginner level
