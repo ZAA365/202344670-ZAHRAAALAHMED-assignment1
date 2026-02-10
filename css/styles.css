@@ -33,3 +33,52 @@ table {
 }
 
 
+body { 
+    background-color: white; 
+    color: black; 
+    transition: 0.3s; 
+}
+
+body.dark-mode { 
+    background-color: #121212; 
+    color: white; 
+}
+
+/* Dark mode overrides for specific elements */
+body.dark-mode ul,
+body.dark-mode ol,
+body.dark-mode tr {
+    background-color: #1e1e1e;
+    color: white;
+    border-color: #333;
+}
+
+body.dark-mode section {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    box-shadow: 3px 3px 3px #222;
+}
+
+body.dark-mode table {
+    color: white;
+}
+
+body.dark-mode th,
+body.dark-mode td {
+    color: white;
+    border-color: #444;
+}
+
+body.dark-mode span {
+    color: inherit !important; /* Override inline styles */
+}
+
+body.dark-mode header {
+    background-color: #0d47a1; /* Darker blue for dark mode */
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode p {
+    color: white;
+}
