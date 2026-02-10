@@ -1,0 +1,35 @@
+ul, ol,tr {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-color: lightblue ;
+}
+
+
+h1 + p {
+   border-top: 1px solid pink;
+   font-size: 1.5rem;
+
+
+}
+
+header {
+   background-color: lightblue;
+   color: white;
+   font-weight: bold;
+   text-align: center;
+   padding: 10px;
+}
+section {
+   padding: 10px;
+   box-shadow: 3px 3px 3px lightgray;
+   border: 1px solid lightgray;   
+   text-align: center;
+}
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+}
+
+
