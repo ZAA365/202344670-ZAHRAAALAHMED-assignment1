@@ -1,3 +1,6 @@
+/* LISTS & TABLE ROWS STYLING */
+/* Styles for unordered lists, ordered lists, and table rows */
+/* White background, black text, bold font, light blue borders */
 ul, ol,tr {
   background-color: white;
   color: black;
@@ -5,14 +8,17 @@ ul, ol,tr {
   border-color: lightblue ;
 }
 
-
+/* FIRST PARAGRAPH AFTER H1 */
+/* Special style for first paragraph directly after any h1 tag */
+/* Pink top border and larger font size */
 h1 + p {
    border-top: 1px solid pink;
    font-size: 1.5rem;
-
-
 }
 
+/* HEADER STYLING */
+/* Style for the page header at the top */
+/* Light blue background, white text, centered with padding */
 header {
    background-color: lightblue;
    color: white;
@@ -20,31 +26,46 @@ header {
    text-align: center;
    padding: 10px;
 }
+
+/* SECTION BOXES */
+/* Style for all content section boxes */
+/* Padding, shadow effect, light gray border, centered content */
 section {
    padding: 10px;
    box-shadow: 3px 3px 3px lightgray;
    border: 1px solid lightgray;   
    text-align: center;
 }
+
+/* TABLE STYLING */
+/* Style for all tables on the page */
+/* Full width, collapsed borders, margin above table */
 table {
    width: 100%;
    border-collapse: collapse;
    margin-top: 20px;
 }
 
-
+/* DEFAULT LIGHT MODE */
+/* Body styles for normal (light) mode */
+/* White background, black text, smooth transition for color changes */
 body { 
     background-color: white; 
     color: black; 
     transition: 0.3s; 
 }
 
+/* DARK MODE BASE STYLES */
+/* Body styles when dark mode class is applied */
+/* Dark background, white text */
 body.dark-mode { 
     background-color: #121212; 
     color: white; 
 }
 
-/* Dark mode overrides for specific elements */
+/* DARK MODE: LISTS & TABLE ROWS */
+/* Dark versions of list and table row styles */
+/* Dark background, white text, dark borders */
 body.dark-mode ul,
 body.dark-mode ol,
 body.dark-mode tr {
@@ -53,32 +74,50 @@ body.dark-mode tr {
     border-color: #333;
 }
 
+/* DARK MODE: SECTION BOXES */
+/* Dark version of section boxes */
+/* Dark background, dark border, dark shadow */
 body.dark-mode section {
     background-color: #1e1e1e;
     border: 1px solid #333;
     box-shadow: 3px 3px 3px #222;
 }
 
+/* DARK MODE: TABLE TEXT */
+/* Makes all table text white in dark mode */
 body.dark-mode table {
     color: white;
 }
 
+/* DARK MODE: TABLE CELLS */
+/* Styles for table headers and data cells in dark mode */
+/* White text, dark borders */
 body.dark-mode th,
 body.dark-mode td {
     color: white;
     border-color: #444;
 }
 
+/* DARK MODE: SPAN ELEMENTS */
+/* Overrides inline colors in span tags for dark mode */
+/* Uses !important to force override of inline styles */
 body.dark-mode span {
-    color: inherit !important; /* Override inline styles */
+    color: inherit !important; 
 }
 
+/* DARK MODE: HEADER */
+/* Dark version of page header */
+/* Darker blue background for better contrast */
 body.dark-mode header {
-    background-color: #0d47a1; /* Darker blue for dark mode */
+    background-color: #0d47a1; 
 }
 
+/* DARK MODE: TEXT ELEMENTS */
+/* Makes all headings and paragraphs white in dark mode */
+/* Ensures text is visible against dark background */
 body.dark-mode h1,
 body.dark-mode h2,
 body.dark-mode p {
     color: white;
 }
+
