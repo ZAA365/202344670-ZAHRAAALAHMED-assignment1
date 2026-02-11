@@ -73,3 +73,4 @@
 * Added my own images and project details
 * Wrote personalized content in all sections
 * Search about apple style
+* edit some apple features to be like I want
