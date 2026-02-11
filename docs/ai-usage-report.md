@@ -23,7 +23,9 @@
 * Helped me learn proper HTML structure and CSS organization
 * Saved me time on repetitive coding tasks
 * Helped me in writing my read documents
-
+* Learned a lot about Apple's design system
+* How to do the frosted glass effect and dark mode
+  
 **Difficulties I faced:**
 * Sometimes AI suggestions were too advanced for my beginner level
 * Had to carefully review code to make sure I understood it
@@ -70,3 +72,4 @@
 * Simplified complex code suggestions
 * Added my own images and project details
 * Wrote personalized content in all sections
+* Search about apple style

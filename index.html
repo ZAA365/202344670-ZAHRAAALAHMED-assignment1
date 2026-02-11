@@ -7,18 +7,9 @@
         <!-- Internal CSS for paragraphs and sections -->
         <!-- Character encoding and page title -->
         <link href="css/styles.css" rel="stylesheet">
-        <style>
-            p {
-                color: black;
-            }
-            section {
-                border: 1px solid black;
-                padding: 10px;
-                margin-bottom: 20px;
-            }
-        </style>
         <meta charset="UTF-8">
-        <title>My First personal portfolio web</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <title>Zahraa AL-Ahmed - Portfolio</title>
     </head>
     
     <body>
@@ -27,19 +18,20 @@
         <header>
         <h1>ZAHRAA AL-AHMED</h1>
         </header>
-
+        <!-- NAVIGATION SECTION -->
         <nav class="navigation">
-            <a href="#About me">About me</a>
+            <a href="#About me">About</a>
             <a href="#Projects">Projects</a>
-            <a href="#Contact me">Contact me</a>
+            <a href="#Contact me">Contacts</a>
         </nav>
         <!-- DARK MODE BUTTON -->
         <!-- Button to switch between light and dark themes -->
         <!-- JavaScript file linked here -->
-        <button id="theme-toggle">🌙 Switch Mode</button>
+        <button id="theme-toggle">🌙 Dark Mode</button>
         <script src="js/script.js" defer></script>
         <!-- INTRODUCTION SECTION -->
         <!-- Personal introduction with welcome messages -->
+        <main>
         <h1>Zahraa Adel AL-Ahmed</h1>
         <p>
             Welcome to my personal portfolio website!
@@ -64,7 +56,7 @@
         <section id="Projects">
             <h2>Projects</h2>
             <p>
-                below are some of the projects I have worked on in my CS courses. I am proud of these projects and I hope to continue learning and improving my skills in the future.
+                Below are some of the projects I have worked on in my CS courses. I am proud of these projects and I hope to continue learning and improving my skills in the future.
             </p>
             <table>
                 <!-- TABLE HEADER ROW -->
@@ -112,7 +104,8 @@
                 <textarea id="message" name="message"></textarea><br><br>
                 <!-- SUBMIT BUTTON -->
                 <input type="submit" value="Submit">
+                </form>
         </section>
-
+        </main>
     </body>
 </html>
