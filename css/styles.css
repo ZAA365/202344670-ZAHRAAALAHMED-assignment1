@@ -60,7 +60,7 @@ header h1 {
 }
 
 .navigation a:hover {
-    color: #0066cc; /* Apple's signature blue */
+    color: #8100cc; /* Apple's signature blue */
 }
 
 /* Fancy underline animation - my professor showed me this trick */
@@ -71,7 +71,7 @@ header h1 {
     height: 2px;
     bottom: 0;
     left: 50%;
-    background-color: #0066cc;
+    background-color: #8100cc;
     transition: all 0.3s ease;
 }
 
@@ -82,9 +82,7 @@ header h1 {
 
 /* ----- CENTERING TEXT - PROFESSOR SAID MAKE IT CLEANER ----- */
 /* the alignment for better readability - Apple always centers hero text */
-h1, 
-h1 + p,
-p {
+h1, h1 + p, p {
     text-align: center;
     max-width: 800px; /* Prevents lines from getting too long */
     margin-left: auto;
@@ -140,7 +138,7 @@ section p {
 
 #theme-toggle:hover {
     background: #e8e8ed;
-    border-color: #0066cc;
+    border-color: #8100cc;
     transform: scale(1.02); /* Subtle grow effect on hover */
 }
 
@@ -278,17 +276,17 @@ textarea {
     background: #ffffff;
 }
 
-/* Focus state with blue glow - very Apple */
+/* Focus state with purble glow - very Apple */
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-    border-color: #0066cc;
+    border-color: #8100cc;
     outline: none;
-    box-shadow: 0 0 0 4px rgba(0, 102, 204, 0.1); /* Subtle blue ring */
+    box-shadow: 0 0 0 4px rgba(163, 0, 204, 0.1); /* Subtle purble ring */
 }
 
 input[type="submit"] {
-    background: #0066cc;
+    background: #8100cc;
     color: white;
     border: none;
     border-radius: 980px; /* Pill-shaped button */
@@ -301,7 +299,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background: #0077ed; /* Lighter blue on hover */
+    background: #a310f8; /* Lighter purble on hover */
     transform: scale(1.02);
 }
 
@@ -334,11 +332,11 @@ body.dark-mode .navigation a {
 }
 
 body.dark-mode .navigation a:hover {
-    color: #2997ff; /* Brighter blue for dark mode */
+    color: #a310f8; /* Brighter blue for dark mode */
 }
 
 body.dark-mode .navigation a::after {
-    background-color: #2997ff;
+    background-color: #a310f8;
 }
 
 body.dark-mode section {
@@ -388,7 +386,7 @@ body.dark-mode #theme-toggle {
 
 body.dark-mode #theme-toggle:hover {
     background: #2d2d2d;
-    border-color: #2997ff;
+    border-color: #a310f8;
 }
 
 /* Making sure all text is readable in dark mode */
